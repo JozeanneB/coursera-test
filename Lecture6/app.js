@@ -13,11 +13,11 @@
                 }
                 
                 return totalStringValue;
-            };
+            }
         
             $scope.displayNumeric = function () {
                 var totalNameValue = calculateNumericForString($scope.name); //get the total value
                 $scope.totalValue = totalNameValue;
-            };     
+            };
         });
 })();
